@@ -1,0 +1,115 @@
+/*
+     Chouquette Lab.
+     Alexandre Vestri ©2011
+*/
+body {
+    left:0;
+    top:0;
+    background-color:#666;
+    background:url('../images/bg_body.png');
+}
+
+#topMenu{
+    position:absolute;
+    left:0px;
+    top:0px;
+    background:url('../images/bg_top.png');
+    height:84px;
+    width:100%;
+}
+
+#titre{
+    color:white;
+    margin-left:30px;
+    font: italic bold 20px/35px Georgia;
+}
+
+#main  {
+    background-color:#fff;
+    margin:auto;
+    width:760px;
+    height:800px;
+  padding-top:70px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom:40px;
+
+}
+
+section {
+    width:700px;
+    margin:auto;
+    overflow: hidden;
+    /*border: 1px solid #000;*/
+    margin-top:20px;
+}
+
+li{
+    text-decoration:none;
+}
+.photo {
+    overflow: hidden;
+}
+
+#headline{
+    width:700px;
+    height:300px;
+}
+
+#quotation{
+    height:100px;
+    background:#444;
+    color:white;
+    font: bold 90px/100px Arial;
+    text-align:center;
+    overflow: hidden;
+}
+
+#bottom{
+    height:140px;
+}
+
+li{
+top:0px;
+right:20px;
+}
+
+.img {
+   width:200px;
+    height:200px;
+}
+
+.img3 {
+   width:450px;
+    height:200px;
+}
+
+td {
+        border-spacing: 0;
+        padding:0px;
+      border-style:none;
+        overflow: hidden;
+}
+
+#td1 {
+width:200px;
+height:200px;
+}
+
+#td2 {
+    padding-left:20px;
+     padding-right:20px;
+width:200px;
+height:200px;
+}
+
+#td3 {
+width:300px;
+height:200px;
+}
+
+table{
+     border-collapse:collapse;
+    width:100%;
+}

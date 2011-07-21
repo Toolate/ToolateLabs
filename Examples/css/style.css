@@ -1,0 +1,208 @@
+/*
+     Chouquette Lab.
+     Alexandre Vestri ©2011
+     v1.0
+*/
+
+body {
+    left:0;
+    top:0;
+    background-color:#666;
+   
+}
+
+#topMenu{
+    position:absolute;
+    left:0px;
+    top:0px;
+    background:url('../images/bg_top.png');
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(1, rgb(3,3,3)),
+        color-stop(0.46, rgb(54,54,54))
+    );
+    
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(3,3,3) 100%,
+        rgb(54,54,54) 46%
+    );
+    
+    -moz-box-shadow: 0px 5px 20px #656565;
+    -webkit-box-shadow: 0px 5px 20px #656565;
+    -o-box-shadow: 0px 5px 20px #656565;
+    box-shadow: 0px 5px 20px #656565;
+
+    height:84px;
+    width:100%;
+}
+
+#titre{
+    color:white;
+    margin-left:30px;
+    font: italic bold 30px/35px Georgia;
+}
+
+#main  {
+    background-color:#fff;
+    margin:auto;
+    width:760px;
+    height:900px;
+    padding-top:70px;
+    margin-bottom:40px;
+    
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+  
+    -moz-box-shadow: 5px 5px 20px #343434;
+    -webkit-box-shadow: 5px 5px 20px #343434;
+    -o-box-shadow: 5px 5px 20px #343434;
+    box-shadow: 5px 5px 20px #343434;
+
+}
+
+#headline:hover #news_content{
+    opacity:0.7;
+    position:relative;
+    right:-380px;
+}
+
+#news_content{
+    position:relative;
+    opacity:0.7;
+    width:300px;
+    height:400px;
+    right:-650px;
+    color:#fff;
+    background-color:#333;
+    padding:10px;
+    
+    -webkit-transition: all 0.6s linear; 
+    -moz-transition: all 0.6s linear; 
+    -o-transition: all 0.6s linear;
+}
+
+
+section {
+    width:700px;
+    margin:auto;
+    overflow: hidden;
+    /*border: 1px solid #000;*/
+    margin-top:20px;
+}
+
+#menu{
+position:absolute;
+top:20px;
+right:20px;
+color:White;
+font-family:Arial;
+font-size:12;
+font-weight:bold;
+}
+
+#menu a{
+    text-decoration:none;
+    color:White;
+}
+
+#menu a:hover{
+     text-decoration:underline;
+     color:White;
+}
+
+
+ul#menu li { 
+display : inline;
+padding : 0 0.5em; /* Pour espacer les boutons entre eux */
+}
+
+ul#menu {
+list-style-type : none; /* Car sinon les puces se placent n'importe où */
+}
+
+li{
+    text-decoration:none;
+}
+
+.photo {
+    width:700px;
+}
+
+#headline{
+    width:700px;
+    height:350px;
+    overflow: hidden;
+    background: url(./kite.jpg) 0px 0px no-repeat;
+    /*background: url('http://www.wallpapers-gratuit.com/fond-ecran/sport/surf/wallpaper-kitesurf.jpg') 0px 0px no-repeat;*/
+    
+    
+}
+
+#quotation{
+    height:100px;
+    background:#444;
+    color:white;
+    font: bold 90px/100px Arial;
+    text-align:center;
+    overflow: hidden;
+}
+
+#bottom{
+    height:140px;
+}
+
+
+
+.img {
+   width:200px;
+    height:200px;
+}
+
+.img3 {
+   width:450px;
+    height:200px;
+}
+
+table{
+     border-collapse:collapse;
+    width:100%;
+}
+
+
+td {
+        border-spacing: 0;
+        padding:0px;
+        border-style:none;
+        overflow: hidden;
+}
+
+#td1 {
+width:200px;
+height:200px;
+}
+
+#td2 {
+    padding-left:20px;
+     padding-right:20px;
+width:200px;
+height:200px;
+}
+
+#td3 {
+width:300px;
+height:200px;
+}
+
+
+#texte_bot{
+    top:800px;
+    width:700px;
+    height:200px;
+    margin:auto;
+    color:Black;
+}
